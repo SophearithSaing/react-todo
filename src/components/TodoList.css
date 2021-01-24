@@ -1,0 +1,27 @@
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.todo-list {
+  min-width: 30%;
+  width: 90%;
+  list-style: none;
+  height: 400px;
+  /* overflow: scroll; */
+}
+
+.todo {
+  margin: 1rem 0;
+}
+
+.todo:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.no-task {
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+.input {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  color: #0093e9;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #0093e9;
+  color: white;
+}
+
+.todo-button {
+  height: 50px;
+}
+
+@media (max-width: 480px) {
+  .todo-input {
+    width: 250px;
+  }
+}
